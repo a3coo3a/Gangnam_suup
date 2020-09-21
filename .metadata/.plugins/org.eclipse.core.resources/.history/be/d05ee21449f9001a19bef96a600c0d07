@@ -1,0 +1,13 @@
+package exam01;
+
+public class House {
+	private Person[] persons;
+	
+	public House() {
+		persons = new Person[10];
+	}
+	public void getIn(Person person) {
+		
+	}
+	
+}

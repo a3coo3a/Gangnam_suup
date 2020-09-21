@@ -1,0 +1,16 @@
+package inter.basic2;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		Animal baduk = new Dog();
+		Animal nabi = new Cat();
+		Animal hodol = new Tiger();
+		
+		// 1. Animal 배열을 생성해서 baduk, nabi, hodol를 저장하고
+		Animal[] animals = new Animal[3];
+		animals[0] = baduk;
+		animals[1] = nabi;
+		animals[2] = hodol;
+	}
+}

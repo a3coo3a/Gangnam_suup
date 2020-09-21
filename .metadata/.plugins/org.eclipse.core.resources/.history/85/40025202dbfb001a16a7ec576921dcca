@@ -1,0 +1,5 @@
+package exception.trycatch;
+
+public class TryCatchEx01 {
+
+}

@@ -1,0 +1,17 @@
+package exception.trycatch;
+
+public class TryCatchEx02 {
+	public static void main(String[] args) {
+		String[] arr = {"홍길동", "이순신", "강감찬"};
+		int i = 0;
+		while (i < 4) {	// 4번째 에서 에러 
+			System.out.println(arr[i]);
+			
+			
+			
+			
+		}
+	
+	
+	}
+}

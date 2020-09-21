@@ -1,0 +1,30 @@
+package abs.good;
+
+// 추상클래스 상속시 오류 해결 방법
+// 1. 서브클래스도 추상클래스로 변경
+// 2. 오버라이딩을 통해 추상메서드 재정의
+
+public class Store extends HeadStore{
+
+	@Override
+	public void apple() {
+		
+	}
+
+	@Override
+	public void bnanan() {
+		
+	}
+
+	@Override
+	public void melon() {
+		
+	}
+
+	@Override
+	public void orange() {
+		
+	}
+
+	
+}

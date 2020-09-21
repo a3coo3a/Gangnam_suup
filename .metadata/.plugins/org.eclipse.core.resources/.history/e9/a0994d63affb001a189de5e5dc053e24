@@ -1,0 +1,9 @@
+package inter.basic;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		Basic b = new Basic();
+		
+	}
+}

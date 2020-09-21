@@ -1,0 +1,10 @@
+package quiz15;
+
+public class Tank extends Unit{
+	public Tank() {
+		super(100);
+	}
+	void changeMode() {
+		// 공격모드를 변경
+	}
+}

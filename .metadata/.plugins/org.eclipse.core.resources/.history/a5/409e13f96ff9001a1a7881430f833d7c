@@ -1,0 +1,6 @@
+package abs.good;
+
+public class Store extends HeadStore{
+
+	
+}

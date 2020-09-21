@@ -1,0 +1,11 @@
+package quiz16;
+
+public abstract class Shape {
+
+		private String name;
+		
+		// 오버라이딩을 강제화 하지 않는 다면 -> 일반 메서드
+		public String getName() {
+			return "도형 이름 : " + name;
+		}
+}

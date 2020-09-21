@@ -1,0 +1,8 @@
+package quiz15;
+
+public class ex {
+	public static void main(String[] args) {
+		double distance = Math.sqrt(3*3 + 4*4);
+		System.out.println(distance);
+	}
+}

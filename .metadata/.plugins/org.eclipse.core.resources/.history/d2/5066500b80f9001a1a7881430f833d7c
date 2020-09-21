@@ -1,0 +1,18 @@
+package quiz15;
+
+public class MainClass {
+	public static void main(String[] args) {
+		Marine m = new Marine();
+		Tank t = new Tank();
+		DropShip d = new DropShip();
+		
+		m.location();
+		t.location();
+		d.location();
+		
+		m.move(3, 4);
+		t.move(4, 3);
+		d.move(5, 5);
+		
+	}
+}

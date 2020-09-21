@@ -1,0 +1,19 @@
+package static_.method;
+
+public class Count {
+	public int a;
+	public static int b;
+	
+	// 일반 메서드 - 일반멤버변수, 정적멤버변수 모두 사용이 가능
+	public int method1() {
+		a = 10;
+		return ++b;
+	}
+	
+	// 정적 메서드
+	public static int method2() {
+		a = 10;		// 일반 멤버변수 사용불가 : 메서드는 사용할수 있을때 a가 생성이 안되어 있을 수도 있어서
+		return ++b;	// 정적 멤버변수 사용가능
+	}
+	
+}

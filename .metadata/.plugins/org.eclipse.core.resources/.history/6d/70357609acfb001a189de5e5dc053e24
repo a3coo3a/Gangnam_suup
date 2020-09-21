@@ -1,0 +1,10 @@
+package inter.basic;
+
+public class Basic implements Inter1{
+
+	@Override
+	public void method1() {
+		
+	}
+	
+}

@@ -1,0 +1,21 @@
+package static_.singleton;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.util.Calendar;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		Singleton s1 = Singleton.getInstance();
+		Singleton s2 = Singleton.getInstance();
+		
+		
+		System.out.println(s1 == s2);
+		
+		// 실예시
+		
+		Calendar cal = Calendar.getInstance();
+		Connection con = DriverManager.getConnection("xxx");
+	}
+}

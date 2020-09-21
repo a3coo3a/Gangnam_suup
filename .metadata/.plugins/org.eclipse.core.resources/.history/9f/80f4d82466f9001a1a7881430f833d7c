@@ -1,0 +1,6 @@
+package final_.method;
+
+public /*final*/ class Parent {
+	// final class :  상속을 받을 수 없음.
+
+}

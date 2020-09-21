@@ -1,0 +1,14 @@
+package static_.init;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		
+		System.out.println(Computer.company);
+		Computer c1 = new Computer(1000);
+		Computer c2 = new Computer(2000);
+		Computer c3 = new Computer(3000);
+		
+		
+	}
+}

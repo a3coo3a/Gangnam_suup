@@ -1,0 +1,13 @@
+package quiz15;
+
+public class Marine extends Unit{
+	int x = 0;
+	int y = 0;
+	int hp = 60;
+	static int attack = 6;
+	static int armor = 0;
+	
+	public Marine() {
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,22 @@
+package exam01;
+
+public class House {
+	private Person[] persons;
+	private int i=0;
+	
+	public House() {
+		persons = new Person[10];
+	}
+	public void getIn(Person person) {
+			persons[i] = person;
+			i++;
+	}
+	public void print() {
+		
+	}
+	public Person[] getPersons() {
+		return persons;
+	}
+	
+	
+}

@@ -1,0 +1,33 @@
+package quiz15;
+
+public class Marine extends Unit {
+	static int attack = 6;
+	static int armor = 0;
+
+	public Marine() {
+		super(0, 0, 60);
+	}
+
+	/*
+	 * location()의 기능
+	 * - 마린의 현재 위치를 x, y의 출력
+	 */
+	
+	@Override
+	public void location() {
+		System.out.println("Marine의 현재 위치는");
+		System.out.println("x : " + x + ", y:" + y);
+	}
+
+	/*
+	 * move()의 기능
+	 * -  
+	 */
+	
+	@Override
+	public void move(int x, int y) {
+		
+	}
+
+	
+}

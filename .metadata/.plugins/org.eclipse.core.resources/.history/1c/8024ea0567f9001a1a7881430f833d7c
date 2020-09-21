@@ -1,0 +1,10 @@
+package final_.field;
+
+public class Person {
+	
+	public final String nation;
+	public final String ssn;
+	public String name;
+	
+	
+}

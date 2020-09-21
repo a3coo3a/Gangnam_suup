@@ -1,0 +1,10 @@
+package inter.basic2;
+
+public class Dog extends Animal{
+
+	@Override
+	public void eat() {
+		System.out.println("멍멍이는 사료를 좋아해요");
+	}
+
+}

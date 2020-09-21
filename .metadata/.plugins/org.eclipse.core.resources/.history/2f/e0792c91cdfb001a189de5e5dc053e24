@@ -1,0 +1,8 @@
+package quiz17;
+
+public class MainClass {
+	public static void main(String[] args) {
+		// 인터페이스 형으로 선언하고, 무한반복문 안에서
+		// 추가, 재생, 종료 메뉴를 입력 받아서 클래스의 각 기능을 실행 해 보세요
+	}
+}

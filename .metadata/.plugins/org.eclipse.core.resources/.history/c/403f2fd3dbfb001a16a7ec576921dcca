@@ -1,0 +1,12 @@
+package exception.trycatch;
+
+public class TryCatchEx02 {
+	public static void main(String[] args) {
+		String[] arr = {"홍길동", "이순신", "강감찬"};
+		while (true) {
+			
+		}
+	
+	
+	}
+}

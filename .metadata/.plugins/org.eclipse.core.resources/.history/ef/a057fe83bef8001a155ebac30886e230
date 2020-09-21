@@ -1,0 +1,5 @@
+package quiz15;
+
+public class Marine extends Unit{
+	int x = 0
+}

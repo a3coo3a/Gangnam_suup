@@ -1,0 +1,12 @@
+package inter.basic2;
+
+public abstract class Animal implements Ipet {
+	
+	public abstract void eat();
+	
+	
+
+
+
+
+}

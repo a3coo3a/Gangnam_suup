@@ -1,0 +1,7 @@
+package quiz15;
+
+public class ex {
+	public static void main(String[] args) {
+		double distance = Math.sqrt(5*5 + 5*5);
+	}
+}

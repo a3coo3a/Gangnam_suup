@@ -1,0 +1,13 @@
+package quiz15;
+
+public class Unit {
+	private int x;
+	private int y;
+	private int hp;
+	
+	Unit(int hp){
+		x = 0;
+		y = 0;
+		this.hp = hp;
+	}
+}

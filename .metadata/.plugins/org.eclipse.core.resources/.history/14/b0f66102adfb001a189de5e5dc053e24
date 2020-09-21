@@ -1,0 +1,26 @@
+인터페이스
+
+- 인터페이스는 클래스가 아니다
+- 상수, 추상메서드 만 {} 에 들어갈 수 있다.
+
+* Java는 다중 상속을 지원하지 않는다.
+- 이미 상속을 받은 subclass에 다른 상속을 할수 없다.
+
+1. 사용해야할 기능은 추상메서드로 선언
+2. 상속을 받은 subclass에 interface 클래스를 추가 (implements:구현하다) - 다중상속의 대체
+3. interface가 가지고 있는 기능을 무조건 오버라이딩 해서 사용해야함.
+4. 하나의 인터페이스는 여러개에 class에 공유 가능
+ex) class Dog extends Animal implements 포유류 {...}
+
+
+인터페이스 기능
+1. 다중 상속을 지원한다. - ,로 구분
+ex) Class Dog extends Animal implements 포유류, IPet {...}
+2. 메서드 명세서
+ - 인터페이스도 데이터 타입이 될 수 있다.
+ - 다형성 구현시 매우 중요한 역할
+ ex) IPet pet1 = new Dog();
+ 	 IPet pet2 = new Cat();
+ 	 IPet pet3 = new GoldFish();
+ 
+
