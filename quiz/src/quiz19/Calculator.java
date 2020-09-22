@@ -23,7 +23,6 @@ public class Calculator {
 
 			sum = n1 + n2;
 
-			sc.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 			/*
@@ -36,6 +35,8 @@ public class Calculator {
 			 * at quiz19.MainClass.main(MainClass.java:7)
 			 */
 			throw new Exception();
+		} finally {
+			sc.close();
 		}
 
 		return sum;
