@@ -1,0 +1,8 @@
+package quiz19;
+
+public class Calculator {
+
+	public int input() {
+		
+	}
+}

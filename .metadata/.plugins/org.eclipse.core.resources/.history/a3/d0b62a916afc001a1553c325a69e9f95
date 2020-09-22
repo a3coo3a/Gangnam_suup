@@ -1,0 +1,15 @@
+package exception.multicatch;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		/*
+		 * main매서드 실행 매개값을 주는 방법
+		 * run 탭 -> run configuration -> arguments -> 
+		 */
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+		System.out.println(args[2]);
+	}
+
+}

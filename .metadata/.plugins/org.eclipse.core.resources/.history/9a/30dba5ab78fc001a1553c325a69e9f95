@@ -1,0 +1,18 @@
+package exception.throw_;
+
+public class ThrowEX01 {
+	public static void main(String[] args) {
+		System.out.println("결과 : " + calc(10));
+		System.out.println("결과 : " + calc(-10));
+
+	} // main end
+
+	public static int calc(int n) {
+		int sum = 0;
+		for (int i = 1; i <= n; i++) {
+			sum += i;
+		}
+		return sum;
+	} // calc end
+
+}

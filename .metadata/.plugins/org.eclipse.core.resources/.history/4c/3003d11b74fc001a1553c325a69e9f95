@@ -1,0 +1,19 @@
+package exception.throws_;
+
+public class ThrowsEx02 {
+
+	// 생성자
+
+	public ThrowsEx02() {
+		aaa();
+	}
+
+	public void aaa() {
+		bbb(0);
+	}
+
+	public void bbb(int i) {
+		System.out.println(10 / i);
+	}
+
+}

@@ -1,0 +1,14 @@
+package exception.throws_;
+
+public class ThrowsEx01 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	private static String[] greeting = {"헬로", "안녕", "니하오"};
+	public static void greet(int index) {
+		System.out.println(greeting[index]);
+	
+	}
+}
