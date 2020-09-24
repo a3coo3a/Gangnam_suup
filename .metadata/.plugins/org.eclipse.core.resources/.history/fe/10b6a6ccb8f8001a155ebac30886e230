@@ -1,7 +1,0 @@
-package static_.singleton;
-
-public class Singleton {
-	// 싱글톤패턴 : 객체가 1개만 생성되도록 클래스를 구성하는 방법
-	
-	
-}

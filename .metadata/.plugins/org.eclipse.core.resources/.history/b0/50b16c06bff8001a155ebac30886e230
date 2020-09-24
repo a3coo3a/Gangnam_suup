@@ -1,7 +1,0 @@
-package quiz15;
-
-public class Tank extends Unit{
-	public Tank() {
-		super(100);
-	}
-}

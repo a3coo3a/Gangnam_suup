@@ -1,5 +1,6 @@
 package quiz20;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -15,10 +16,10 @@ public class TokenQuiz01 {
 		 */
 
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.print("문장을 입력하세요 >");
 		StringTokenizer str = new StringTokenizer(sc.nextLine());
-		
+
 		String[] strArr = new String[str.countTokens()];
 		int strSize = 0;
 		while (str.hasMoreTokens()) {
@@ -27,7 +28,8 @@ public class TokenQuiz01 {
 			System.out.println((strSize + 1) + ". " + strArr[strSize]);
 			strSize++;
 		}
+		System.out.println(Arrays.toString(strArr));
 		System.out.println("토큰의 갯수 : " + strSize);
-		
+
 	}
 }
