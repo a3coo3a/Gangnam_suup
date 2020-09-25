@@ -1,7 +1,0 @@
-package final_.method;
-
-public class Child extends Parent{
-	
-	public void method2() {}
-	public final void method2() {}
-}

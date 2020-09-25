@@ -1,7 +1,0 @@
-package exam01;
-
-public class Tiger {
-	public Tiger(String name){
-		super(name);
-	}
-}

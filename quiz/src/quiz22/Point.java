@@ -6,7 +6,7 @@ public class Point implements InterPoint {
 	Scanner sc = new Scanner(System.in);
 
 	@Override
-	public void showPointUI() {
+	public void showPointUI() { // 제목
 		// showPointUI기능
 
 		System.out.println("===========================================================");
@@ -26,21 +26,21 @@ public class Point implements InterPoint {
 		 * 4. 저장완료 메세지를 출력하세요.
 		 * ex) XXX님의 성적 정보가 정상적으로 입력되었습니다.
 		 */
-		Student student = new Student();
+		Student student = new Student(); // 객체가 다르게 생성되야 하므로 함수에 존재해야 함.
 		String stuId = student.inputStuInfo();
 		if (students.size() == 0) {
 			students.add(student);
 			System.out.println(students.get(students.size() - 1).getName() + "님의 성적 정보가 정상적으로 입력되었습니다.");
 		} else {
-			for (Student stu : students) {
-				if (stu.getStuId().equals(stuId)) {
+			for (int i = 0; i < students.size(); i++) {
+				if (students.get(i).getStuId().equals(stuId)) {
 					System.out.println("이미 등록된 회원입니다.");
 					return;
-				} else {
-					System.out.println(students.get(students.size() - 1).getName() + "님의 성적 정보가 정상적으로 입력되었습니다.");
-
 				}
 			}
+
+			students.add(student);
+			System.out.println(students.get(students.size() - 1).getName() + "님의 성적 정보가 정상적으로 입력되었습니다.");
 
 		}
 	}
@@ -55,14 +55,14 @@ public class Point implements InterPoint {
 		double totAvg = 0.0;
 		if (students.size() == 0) {
 			System.out.println("학생정보가 비어 있습니다. 등록후 이용하세요");
+		} else {
+			showPointUI();
+			for (Student student : students) {
+				student.outputInfo();
+				totAvg += student.getAvg();
+			}
+			System.out.printf("우리반 전체 평균  : %6.2f\n", (totAvg / students.size()));
 		}
-		showPointUI();
-		for (Student student : students) {
-			student.outputInfo();
-			totAvg += student.getAvg();
-		}
-		System.out.printf("우리반 전체 평균  : %6.2f\n", (totAvg / students.size()));
-
 	}
 
 	@Override
@@ -138,10 +138,10 @@ public class Point implements InterPoint {
 			System.out.print("찾을 학번 입력 >");
 			String stuId = sc.nextLine();
 			boolean ch = false;
-			for (Student student : students) {
-				if (student.getStuId().equals(stuId)) {
-					System.out.println(student.getName() + "님의 정보가 삭제되었습니다.");
-					students.remove(student);
+			for (int i = 0; i < students.size(); i++) {
+				if (students.get(i).getStuId().equals(stuId)) {
+					System.out.println(students.get(i).getName() + "님의 정보가 삭제되었습니다.");
+					students.remove(students.get(i));
 					ch = true;
 				}
 			}

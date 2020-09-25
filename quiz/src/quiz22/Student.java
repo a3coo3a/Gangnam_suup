@@ -35,7 +35,11 @@ public class Student {
 				System.out.print("수학점수 > ");
 				math = sc.nextInt();
 				break;
-			} catch (Exception e) {
+			}catch(InputMismatchException e){
+				sc.nextLine();
+				System.out.println("숫자로 입력해주세요~");
+			}	catch (Exception e) {
+				sc.nextLine();
 				System.out.println("다시 입력하세요");
 			} 
 		}

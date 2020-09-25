@@ -28,11 +28,11 @@ public class Generic {
 		
 		//add2(List<? extends String> list)
 		add2(listStr);
-		add2(listInt);	
-		add2(listObj);
+		//add2(listInt);	
+		//add2(listObj);
 		
 		//add3(List<? super Integer> list)
-		add3(listStr);
+		//add3(listStr);
 		add3(listInt);
 		add3(listObj);
 		
