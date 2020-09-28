@@ -1,8 +1,0 @@
-package inter.basic;
-
-public interface Inter1 {
-	// 상수, 추상메서드 정의
-	// 일반변수를 선언해도 자동으로 상수가 됨.
-	// - 상수이기에 초기화 필
-	double PI=3.14;
-}

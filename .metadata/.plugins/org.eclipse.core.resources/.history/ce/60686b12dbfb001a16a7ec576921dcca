@@ -1,8 +1,0 @@
-package exception.trycatch;
-
-	public class TryCatchEx01 {
-		public static void main(String[] args) {
-			
-			
-		}
-}

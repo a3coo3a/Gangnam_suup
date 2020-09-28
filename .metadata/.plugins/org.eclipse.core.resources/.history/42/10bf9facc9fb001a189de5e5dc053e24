@@ -1,5 +1,0 @@
-package inter.basic3;
-
-public class Samsung implements Printed{
-
-}

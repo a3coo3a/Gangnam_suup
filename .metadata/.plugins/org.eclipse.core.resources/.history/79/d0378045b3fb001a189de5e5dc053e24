@@ -1,5 +1,0 @@
-package inter.basic2;
-
-public interface IPet {
-	pulbic void play();
-}

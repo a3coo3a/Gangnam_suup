@@ -1,9 +1,0 @@
-package exception.trycatch;
-
-public class RuntimeEx {
-	public static void main(String[] args) {
-		
-		// 실행 예외의 대표적인 종류
-		
-	}
-}
