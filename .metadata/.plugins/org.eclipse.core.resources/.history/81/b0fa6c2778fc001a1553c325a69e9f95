@@ -1,8 +1,0 @@
-package exception.throw_;
-
-public class ThrowEX01 {
-	public static void main(String[] args) {
-		
-		
-	}
-}
