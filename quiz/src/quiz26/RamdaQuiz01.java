@@ -27,14 +27,17 @@ public class RamdaQuiz01 {
 		String line = null;
 		List<Data> list = new ArrayList<Data>();
 		try {
+			// 1. 경로 설정
 			br = new BufferedReader(new InputStreamReader(
 					new FileInputStream(
 							"D:\\Course\\Java\\workspace2\\quiz\\src\\quiz26\\주택도시보증공사_전국 평균 분양가격(2020년 2월).csv"),
 					"EUC-KR"));
 
+			// 2. 읽어 오기
 			while ((line = br.readLine()) != null) {
-				String[] arr = line.split(",", 5);
+				String[] arr = line.split(",", 5);	// , 단위로 무조건 5개 씩 읽어오기
 
+				// 3. 읽어온 값 대입 
 				String city = arr[0];
 				String area = arr[1];
 				String year = arr[2];
