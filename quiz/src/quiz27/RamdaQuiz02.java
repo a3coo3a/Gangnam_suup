@@ -26,7 +26,7 @@ public class RamdaQuiz02 {
 		try {
 			// 1. 경로 설정
 			br = new BufferedReader(
-					new InputStreamReader(new FileInputStream("D:\\course\\java\\Gangnam_suup\\quiz\\src\\quiz27\\해양수산부_수산물 품목별 수출입 현황 - 2020년 02월(월간).csv"), "EUC-KR"));
+					new InputStreamReader(new FileInputStream("D:\\Course\\Java\\workspace2\\quiz\\src\\quiz27\\해양수산부_수산물 품목별 수출입 현황 - 2020년 02월(월간).csv"), "EUC-KR"));
 			// 2. 읽어 오기
 			while((line = br.readLine()) != null) {
 				// 한 라인당 10개씩 읽어오기

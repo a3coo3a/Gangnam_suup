@@ -15,6 +15,7 @@ public class RegexQuiz02 {
 		String[] strArr = { str, str2, str3 };
 		String[] name = { "상품번호 :\t", "매장명 :\t", "도시락명 :\t", "가격 :\t" };
 		String[] pattern = { "\\d{6}-\\d{7}", "[A-Z]+([0-9]+|)", "\\([가-힣]+\\)", "\\d+,*\\d+원" };
+		// pattern[2] = "[A-Z]+[0-9]*"   : 특정문자가 여러개가 있을 수 있고, 숫자는 있을수도 없을수도 있다.
 
 		for (int j = 0; j < strArr.length; j++) {
 			for (int i = 0; i < pattern.length; i++) {
