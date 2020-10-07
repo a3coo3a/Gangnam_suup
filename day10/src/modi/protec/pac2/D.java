@@ -10,8 +10,8 @@ public class D extends A{
 		super.method();
 		
 		// super를 통한 참조만 가능 
-		A a = new A();
-		a.bool = true;
-		a.method();
+		//A a = new A();
+		//a.bool = true;
+		//a.method();
 	}
 }

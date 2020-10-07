@@ -23,7 +23,7 @@ public class MainClass {
 		String[] arr = new String[5];
 		ArrayPrint.printArray(arr);
 		// 생성자를 private하게 해두었기에 생성을 할 수 없음.
-		ArrayPrint arr1 = new ArrayPrint();		
+		//ArrayPrint arr1 = new ArrayPrint();		
 	
 	
 	}

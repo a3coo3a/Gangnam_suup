@@ -13,7 +13,7 @@
 	<item key="org.eclipse.jdt.uiformatter_page.preference_tree_expansion" value="00.0..0.0.000.0.0.0.0.0.0.0.0.0.0..00.0.0.0.0.0.0.0.0.0.0..00.0.0.0.0.0.0..00.0.0.0..00.0.0.0...00.0.0..000.0..0.0..000.0.0.0.0.0.0.0.0.0.0.0...10.0..0.."/>
 	<item key="org.eclipse.jdt.uiformatter_page.preference_scroll_position" value="0"/>
 	<item key="org.eclipse.jdt.ui.codeformatter.create_profile_dialog.open_edit" value="true"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\1104-21\Desktop\poi-4.1.2\ooxml-lib"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Course\Java\workspace2\quiz\src\quiz28\poi-bin-4.1.2-20200217\poi-4.1.2"/>
 	<section name="completion_proposal_size">
 		<item key="size.x" value="428"/>
 		<item key="size.y" value="812"/>
@@ -145,5 +145,21 @@
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="0"/>
+	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+		<item key="expanded3" value="false"/>
+		<item key="expanded4" value="false"/>
+		<item key="expanded5" value="false"/>
+		<item key="expanded6" value="false"/>
+		<item key="expanded7" value="false"/>
+		<item key="expanded8" value="false"/>
 	</section>
 </section>
